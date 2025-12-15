@@ -1,0 +1,96 @@
+/* ====== STYLE GLOBAL ====== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfaf6;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #2f4f4f;
+}
+
+a:hover {
+  color: #556b2f;
+}
+
+/* ====== HEADER + MENU ====== */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #2f4f4f;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav a {
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* ====== SECTION ====== */
+section {
+  padding: 120px 20px 50px 20px; /* padding-top = header height + marge */
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* TITRES */
+h1, h2 {
+  color: #2f4f4f;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+/* PARAGRAPHES */
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* ====== BOUTONS ====== */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #556b2f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background: #6b8e23;
+}
+
+/* ====== RESPONSIVE ====== */
+@media screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+}
